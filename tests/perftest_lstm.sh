@@ -1,0 +1,9 @@
+time python lstmtest.py --batch-size 16 --batch-len 2500 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 32 --batch-len 2500 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 64 --batch-len 2500 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 16 --batch-len 512 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 64 --batch-len 512 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 128 --batch-len 512 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 64 --batch-len 64 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 128 --batch-len 64 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1
+time python lstmtest.py --batch-size 256 --batch-len 64 --dim-in 512 --dim-out 256 --cpu-number 0 --gpu-number 500 --no-lstm-cell-iter --no-lstm-cell-range --no-lstm-cell-chunk --no-lstm-iterative --no-cpu --logfile $1

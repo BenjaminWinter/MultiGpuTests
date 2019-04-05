@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: gputestv100
+spec:
+  template:
+    spec:
+      containers:
+      - name: gputestv100
+        image: registry.datexis.com/bwinter/gputestv100:latest
+        securityContext:
+          runAsUser: 0
+        volumeMounts:
+          - name: results
+            mountPath: /pvc/results
+        resources:
+          limits:
+            nvidia.com/gpu: 2
+      restartPolicy: Never
+      nodeSelector:
+        gpu: v100
+      imagePullSecrets:
+      - name: private-registry-auth
+      volumes:
+        - name: results
+          persistentVolumeClaim:
+            claimName: results
+  backoffLimit: 0

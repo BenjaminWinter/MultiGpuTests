@@ -1,0 +1,9 @@
+python lineartest.py --hs 2048 --bs 64 --logfile $1
+python lineartest.py --hs 2048 --bs 128 --logfile $1
+python lineartest.py --hs 2048 --bs 256 --logfile $1
+python lineartest.py --hs 1024 --bs 128 --logfile $1
+python lineartest.py --hs 1024 --bs 256 --logfile $1
+python lineartest.py --hs 1024 --bs 512 --logfile $1
+python lineartest.py --hs 512 --bs 256 --logfile $1
+python lineartest.py --hs 512 --bs 512 --logfile $1
+python lineartest.py --hs 512 --bs 1024 --logfile $1
