@@ -167,7 +167,7 @@ def run(args):
         time_speeds(args, cuda=False, number=args.cpu_number)
     endtime = time.time()
     elapsed = endtime - starttime
-    res = "Testing took {}s".format(elapsed)
+    res = "Testing took {} sec".format(elapsed)
     print(res)
     with open(args.logfile, 'a') as f:
         f.write(res)

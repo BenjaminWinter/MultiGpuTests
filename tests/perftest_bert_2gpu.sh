@@ -2,7 +2,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -18,7 +17,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -34,7 +32,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -50,7 +47,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -66,7 +62,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -82,7 +77,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -98,7 +92,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -114,7 +107,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \
@@ -130,7 +122,6 @@ python -u run_babi.py \
     --bert_model bert-base-uncased \
     --logfile $1 \
     --do_train \
-    --do_predict \
     --do_lower_case \
     --train_file babidata_real/qa3/train.json \
     --predict_file babidata_real/qa3/test.json \

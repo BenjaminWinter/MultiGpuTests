@@ -152,7 +152,7 @@ for i in range(100):
         input = data.to(device)
         output = model(input)
         i += 1
-res = "Testing of {} batches  took {} sec".format(i, time.time() - start) 
+res = "Testing took {} sec".format(i, time.time() - start) 
 print(res)
 with open(args.logfile, 'a') as f:
     f.write(res)

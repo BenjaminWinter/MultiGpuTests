@@ -1035,7 +1035,7 @@ def main():
                     global_step += 1
 
                 logger.info("loss: {}".format(loss.item()))
-            res = "Training took {} secs".format(time.time()-start)
+            res = "Testing took {} sec".format(time.time()-start)
             print(res)
             with open(args.logfile, 'a') as f:
                 f.write(res)
