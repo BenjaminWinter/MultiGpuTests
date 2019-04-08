@@ -1040,7 +1040,6 @@ def main():
             with open(args.logfile, 'a') as f:
                 f.write(res)
                 f.write('\n')
-            parser.add_argument("--train_file", default=None, type=str, help="SQuAD json for training. E.g., train-v1.1.json")
             if args.do_predict and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
 
                 logger.info("***** Running predictions *****")
