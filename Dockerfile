@@ -1,6 +1,6 @@
 FROM pytorch/pytorch:nightly-devel-cuda10.0-cudnn7
 
-RUN pip install pytorch-pretrained-BERT joblib tqdm
+RUN pip install pytorch-pretrained-BERT==0.6.1 joblib tqdm
 
 ADD ./tests/ /tests
 
